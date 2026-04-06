@@ -1,4 +1,4 @@
-package com.example.grid_logic_app
+package com.heldiglab.gridlogic
 
 import io.flutter.embedding.android.FlutterActivity
 

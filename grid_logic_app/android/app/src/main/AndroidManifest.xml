@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="grid_logic_app"
+        android:label="Grid Logic"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

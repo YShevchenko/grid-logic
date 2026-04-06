@@ -2,7 +2,7 @@ name: grid_logic_app
 description: "Einstein's riddle logic deduction game"
 publish_to: 'none'
 
-version: 1.0.2+2
+version: 1.0.11+11
 
 environment:
   sdk: ^3.11.3
@@ -28,27 +28,11 @@ dependencies:
   in_app_purchase: ^3.2.1
 
   # Firebase
-  firebase_core: ^3.8.1
-  firebase_analytics: ^11.3.5
-  firebase_crashlytics: ^4.1.5
 
 dev_dependencies:
   flutter_launcher_icons: ^0.14.3
   flutter_native_splash: ^2.4.4
-  flutter_test:
-    sdk: flutter
 
-  # The "flutter_lints" package below contains a set of recommended lints to
-  # encourage good coding practices. The lint set provided by the package is
-  # activated in the `analysis_options.yaml` file located at the root of your
-  # package. See that file for information about deactivating specific lint
-  # rules and activating additional ones.
-  flutter_lints: ^6.0.0
-
-# For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
-
-# The following section is specific to Flutter packages.
 flutter:
 
   # The following line ensures that the Material Icons font is
@@ -87,14 +71,14 @@ flutter:
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
 
+flutter_native_splash:
+  color: "#0F766E"
+  android: true
+  ios: true
+
 flutter_launcher_icons:
   android: true
   ios: true
   image_path: "assets/icon/app_icon.png"
   remove_alpha_ios: true
-
-flutter_native_splash:
-  color: "#0F766E"
-  image: "assets/icon/app_icon.png"
-  android: true
-  ios: true
+  min_sdk_android: 21
